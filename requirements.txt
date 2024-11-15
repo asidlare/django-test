@@ -5,3 +5,6 @@ psycopg[binary]==3.2.3
 
 # Asynchronous Support & Async Django Rest Framework
 uvicorn[standard]==0.32.0
+
+# pytest in requirements, not dev, because it is django-test project
+pytest-django==4.9.0
